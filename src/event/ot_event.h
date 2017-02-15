@@ -18,7 +18,7 @@
 #include "ot_data_channel.h"
 #include "ot_event_handler.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Event
 class Event {

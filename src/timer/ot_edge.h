@@ -19,7 +19,7 @@
 #include "ot_classdef.h"
 #include "ot_celllib.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Edge
 class Edge {

@@ -21,7 +21,7 @@
 #include "ot_path.h"
 #include "ot_test.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 //-------------------------------------------------------------------------------------------------
 

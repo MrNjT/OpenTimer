@@ -13,8 +13,8 @@
 
 #include "ot_log.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------

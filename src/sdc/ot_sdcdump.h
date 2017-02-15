@@ -17,7 +17,7 @@
 
 #include "ot_sdcdef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Function: dump_set_input_delay
 std::string dump_set_input_delay(SetInputDelay*);

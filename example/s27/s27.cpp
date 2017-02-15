@@ -13,7 +13,7 @@
 
 #include "ot_timer.h"
 
-using namespace OpenTimer;
+using namespace __OpenTimer;
 
 // Function: main
 int main(int argc, char *argv[]) {

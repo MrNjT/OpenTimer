@@ -17,7 +17,7 @@
 #include "ot_timer.h"
 #include "ot_typedef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Shell
 class Shell final {

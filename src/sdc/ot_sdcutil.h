@@ -26,7 +26,7 @@
 #include <float.h>
 #include "ot_utility.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Procedure: free_sdc_objects
 static inline void free_sdc_objects(std::vector<char*>& objects) {

@@ -15,8 +15,8 @@
 
 int main(int argc, char *argv[]) {
 
-  OpenTimer::Timer::init_logging(argv[0], 1);  
-  OpenTimer::timer_t timer;
+  __OpenTimer::Timer::init_logging(argv[0], 1);
+  __OpenTimer::timer_t timer;
   timer.set_num_threads(8);
   timer.exec_tau2015(argc, argv);
 

@@ -13,7 +13,7 @@
 
 #include "ot_node.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Node::Node() {

@@ -20,7 +20,7 @@
 #include "ot_macrodef.h"
 #include "ot_layer.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Macro
 class Macro {

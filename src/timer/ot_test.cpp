@@ -13,7 +13,7 @@
 
 #include "ot_test.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor.
 Test::Test() {

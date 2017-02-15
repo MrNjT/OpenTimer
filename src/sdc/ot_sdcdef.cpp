@@ -13,7 +13,7 @@
 
 #include "ot_sdcdef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 //-------------------------------------------------------------------------------------------------
 // Definition of timing constraint class.

@@ -17,7 +17,7 @@
 #include "ot_enumdef.h"
 #include "ot_typedef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Layer
 class Layer {
@@ -221,7 +221,7 @@ inline rectangle_vrt LayerGeometry::rectangles() const {
   return *_rectangles_ptr;
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 

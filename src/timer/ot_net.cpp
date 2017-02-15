@@ -13,7 +13,7 @@
 
 #include "ot_net.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Net::Net(string_crt key):

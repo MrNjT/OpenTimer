@@ -13,7 +13,7 @@
 
 #include "ot_timer.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Timer::Timer():
@@ -54,12 +54,12 @@ Timer::~Timer() {
 
 // Procedure: init_logging
 void_t Timer::init_logging(char_cpt argv_0, bool_ct flag) {
-  ::OpenTimer::Log::init_logging(argv_0, flag);
+  ::__OpenTimer::Log::init_logging(argv_0, flag);
 }
 
 // Procedure: run
 void_t Timer::run() {
-  ::OpenTimer::Shell::run();
+  ::__OpenTimer::Shell::run();
 }
 
 // Procedure: _clear_edgelist

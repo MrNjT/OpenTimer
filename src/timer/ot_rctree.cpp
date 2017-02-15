@@ -13,7 +13,7 @@
 
 #include "ot_rctree.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 RCTreeNode::RCTreeNode(string_crt key):
@@ -367,7 +367,7 @@ float_t RCTree::estimate_delay(rctree_node_pt ptr, int el, int rf, float_ct new_
   return ptr->delay(el, rf) + ptr->ures(el, rf) * (new_cap - ptr->cap(el, rf));  
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 

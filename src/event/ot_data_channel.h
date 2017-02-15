@@ -14,7 +14,7 @@
 #ifndef OT_DATA_CHANNEL_H_
 #define OT_DATA_CHANNEL_H_
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 
 

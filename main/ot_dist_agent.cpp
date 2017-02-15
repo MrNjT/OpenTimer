@@ -13,7 +13,7 @@
 
 #include "ot_dist_agent.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 static void handler(AgentEvent* event) {
 
@@ -162,7 +162,7 @@ Agent::~Agent() {
 }
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 // Command:
 //
@@ -174,6 +174,7 @@ Agent::~Agent() {
 // --set_spef_fpath <string>
 // --set_timing_fpath <string>
 //
+namespace OpenTimer = __OpenTimer;
 int main(int argc, char *argv[]) {
   
   // Initialize the logging.

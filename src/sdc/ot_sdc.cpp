@@ -13,7 +13,7 @@
 
 #include "ot_sdc.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor.
 SDC::SDC():

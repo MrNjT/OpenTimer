@@ -13,7 +13,7 @@
 
 #include "ot_circuit.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Circuit::Circuit():

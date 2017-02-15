@@ -18,7 +18,7 @@
 #include "ot_pin.h"
 #include "ot_net.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class RCTreeNode
 // The class defines the node structure of the rc network. All the timing field of the node is 
@@ -462,7 +462,7 @@ inline rctree_node_pt RCTree::rctree_node_ptr(string_crt name) const {
 }
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 #endif

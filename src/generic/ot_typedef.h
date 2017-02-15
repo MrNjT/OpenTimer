@@ -24,7 +24,7 @@
 #include "ot_geometry.h"
 #include "ot_allocator.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Typedef definition field.
 // suffix 't': generic type.

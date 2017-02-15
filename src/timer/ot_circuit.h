@@ -28,7 +28,7 @@
 #include "ot_lefreader.h"
 #include "ot_defreader.h"
 
-namespace OpenTimer{
+namespace __OpenTimer{
 
 // Class: Circuit
 class Circuit {

@@ -13,7 +13,7 @@
 
 #include "ot_spef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 SpefPin::SpefPin() {
@@ -206,7 +206,7 @@ void_t Spef::read_spef(string_crt fpath) {
 }
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 

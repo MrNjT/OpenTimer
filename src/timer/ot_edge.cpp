@@ -13,7 +13,7 @@
 
 #include "ot_edge.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor: Edge
 Edge::Edge() {

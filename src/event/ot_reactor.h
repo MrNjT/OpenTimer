@@ -14,7 +14,7 @@
 #ifndef OT_REACTOR_H_
 #define OT_REACTOR_H_
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Reactor
 class Reactor {

@@ -13,7 +13,7 @@
 
 #include "ot_dump.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Function: dump_net
 // Dump the net information into a string object and return it.
@@ -130,7 +130,7 @@ string_t dump_edge(edge_pt edge_ptr) {
 }
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 

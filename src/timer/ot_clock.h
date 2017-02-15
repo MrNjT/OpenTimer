@@ -19,7 +19,7 @@
 #include "ot_node.h"
 #include "ot_io_port.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: ClockTree
 class ClockTree {

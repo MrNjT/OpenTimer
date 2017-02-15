@@ -13,7 +13,7 @@
 
 #include "ot_debug_graph.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 //-------------------------------------------------------------------------------------------------
 // Private Functions/Procedures

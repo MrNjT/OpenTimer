@@ -19,7 +19,7 @@
 #include "ot_pin.h"
 #include "ot_test.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: PrimaryInput
 class PrimaryInput {

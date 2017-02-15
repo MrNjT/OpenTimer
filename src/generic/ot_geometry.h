@@ -16,7 +16,7 @@
 
 #include "ot_macrodef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 //-------------------------------------------------------------------------------------------------
 

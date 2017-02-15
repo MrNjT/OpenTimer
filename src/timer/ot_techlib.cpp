@@ -13,7 +13,7 @@
 
 #include "ot_techlib.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor: TechLib
 TechLib::TechLib():

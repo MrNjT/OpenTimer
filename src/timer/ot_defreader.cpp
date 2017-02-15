@@ -13,7 +13,7 @@
 
 #include "ot_defreader.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor: DEFReader
 DEFReader::DEFReader():

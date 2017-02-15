@@ -20,7 +20,7 @@
 #include "ot_test.h"
 #include "ot_geometry.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Pin class.
 class Pin {

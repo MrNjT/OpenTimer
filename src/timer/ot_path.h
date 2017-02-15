@@ -18,7 +18,7 @@
 #include "ot_utility.h"
 #include "ot_functor.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 //-------------------------------------------------------------------------------------------------
 

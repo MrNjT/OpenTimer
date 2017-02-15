@@ -13,7 +13,7 @@
 
 #include "ot_clock.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 ClockTree::ClockTree() {

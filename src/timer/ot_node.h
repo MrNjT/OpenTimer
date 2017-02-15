@@ -20,7 +20,7 @@
 #include "ot_edge.h"
 #include "ot_pin.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Node
 class Node {
@@ -403,7 +403,7 @@ inline bool_t Node::is_at_clocked(int el, int rf) const {
 }
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 #endif
 

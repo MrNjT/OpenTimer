@@ -13,7 +13,7 @@
 
 #include "ot_layer.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor.
 Layer::Layer(string_crt key):

@@ -18,7 +18,7 @@
 #include "ot_macrodef.h"
 #include "ot_typedef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Integer pair struct.
 struct IntPair {

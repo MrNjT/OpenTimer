@@ -16,7 +16,7 @@
 
 #include "ot_enumdef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Unit
 // An unit is composed of 1) magnitued and 2) base.

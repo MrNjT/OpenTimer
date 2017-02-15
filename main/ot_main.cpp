@@ -16,10 +16,10 @@
 int main(int argc, char *argv[]) {
 
   // Initialize the logging.
-  OpenTimer::Timer::init_logging(argv[0], 1);
+  __OpenTimer::Timer::init_logging(argv[0], 1);
 
   // Run OpenTimer in inactive manner.
-  OpenTimer::Timer::run();
+  __OpenTimer::Timer::run();
 
   return 0;
 }

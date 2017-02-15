@@ -14,7 +14,7 @@
 #ifndef OT_SINGLETON_H_
 #define OT_SINGLETON_H_
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Singleton
 // Guarantees that only a single instance of an object will exist throughout the

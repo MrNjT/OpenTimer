@@ -25,7 +25,7 @@
 
 //#define LEF_CALLBACK_VERBOSITY 1
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: LEFReader
 class LEFReader

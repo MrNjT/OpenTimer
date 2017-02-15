@@ -13,7 +13,7 @@
 
 #include "ot_sdcutil.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 
 };

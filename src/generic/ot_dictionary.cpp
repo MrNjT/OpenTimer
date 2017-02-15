@@ -13,7 +13,7 @@
 
 #include "ot_dictionary.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 
 };  // End of OpenTimer namespace. ----------------------------------------------------------------

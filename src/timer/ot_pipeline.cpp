@@ -13,7 +13,7 @@
 
 #include "ot_pipeline.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Pipeline::Pipeline():
@@ -139,7 +139,7 @@ void_t Pipeline::node_ptrs(int_t level, node_ptr_vrt vect) {
   }
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 

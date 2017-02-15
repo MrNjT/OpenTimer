@@ -20,7 +20,7 @@
 #include "ot_celllib.h"
 #include "ot_iterator.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
   
 // Class: Pipeline
 class Pipeline {

@@ -13,7 +13,7 @@
 
 #include "ot_freader.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor.
 FileReader::FileReader():

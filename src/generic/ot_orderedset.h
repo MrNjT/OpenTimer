@@ -19,7 +19,7 @@
 #include <cstdlib>
 #include <memory>
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: OrderedSet
 // An ordered set is a data structure consists of a collection of items that support random

@@ -14,7 +14,7 @@
 #ifndef OT_CLASSDEF_H_
 #define OT_CLASSDEF_H_
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 class Abstractor;
 class AbsNode;

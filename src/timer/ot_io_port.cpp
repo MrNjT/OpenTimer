@@ -13,7 +13,7 @@
 
 #include "ot_io_port.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 PrimaryInput::PrimaryInput(string_crt key):

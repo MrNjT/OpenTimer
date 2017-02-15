@@ -25,7 +25,7 @@
 #include "ot_cppr.h"
 #include "ot_path.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: CircuitGateIter
 // Iter of the gate set in a given circuit_uit.

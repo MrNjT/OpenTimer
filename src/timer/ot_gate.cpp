@@ -13,7 +13,7 @@
 
 #include "ot_gate.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Gate::Gate(string_crt key):

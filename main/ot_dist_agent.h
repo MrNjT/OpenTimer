@@ -17,7 +17,7 @@
 #include "ot_timer.h"
 #include "oc_reactor.hpp"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 using os_t = OpenCluster::OutputStream<OpenCluster::StreamBuffer>;
 using is_t = OpenCluster::InputStream<OpenCluster::StreamBuffer>;
@@ -119,6 +119,6 @@ inline timer_cpt Agent::timer_ptr() const {
 }
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 #endif

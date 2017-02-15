@@ -13,7 +13,7 @@
 
 #include "ot_verilog.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor: Verilog
 // Class constructor.
@@ -210,4 +210,4 @@ VerilogGate::VerilogGate() {
 VerilogGate::~VerilogGate() {
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------

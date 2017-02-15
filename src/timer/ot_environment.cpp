@@ -13,7 +13,7 @@
 
 #include "ot_environment.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Environment::Environment():
@@ -163,5 +163,5 @@ void_t Environment::parse_environment_tau2016(int argc, char **argv) {
 
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 

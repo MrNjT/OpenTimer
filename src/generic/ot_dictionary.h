@@ -21,7 +21,7 @@
 #include <unordered_map>
 #include <memory>
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Dictionary
 // K: key type
@@ -196,7 +196,7 @@ inline V* Dictionary<K, V, Hash, KeyEqual, Allocator>::rehash(const K &old_key, 
   return v;
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 #endif
 

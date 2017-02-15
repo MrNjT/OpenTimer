@@ -13,7 +13,7 @@
 
 #include "ot_iterator.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor: CircuitGateIter
 CircuitGateIter::CircuitGateIter(circuit_pt circuit_ptr) : _circuit_ptr(circuit_ptr) {

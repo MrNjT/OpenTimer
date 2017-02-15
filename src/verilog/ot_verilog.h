@@ -22,7 +22,7 @@
 #include "ot_freader.h"
 #include "ot_environment.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Verilog
 // The verilog file specifies the top-level hierarchy of the design. The class defins a small

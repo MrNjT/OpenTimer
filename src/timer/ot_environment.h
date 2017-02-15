@@ -18,7 +18,7 @@
 #include "ot_macrodef.h"
 #include "ot_utility.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Environment
 class Environment {

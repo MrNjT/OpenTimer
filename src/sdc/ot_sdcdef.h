@@ -24,7 +24,7 @@
 
 #include "ot_sdcutil.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 //-------------------------------------------------------------------------------------------------
 // Definition of timing constraint class.

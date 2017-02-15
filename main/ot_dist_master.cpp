@@ -13,7 +13,7 @@
 
 #include "ot_dist_master.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 static int num_agents;
 static string port;
@@ -153,12 +153,13 @@ static void listener_handler(MasterEvent* event) {
   sleep(1);
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 // Command:
 //
 // --port <string>
 //
+namespace OpenTimer = __OpenTimer;
 int main(int argc, char *argv[]) {
 
   // Initialize the logging.

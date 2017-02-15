@@ -15,8 +15,8 @@
 
 int main(int argc, char *argv[]) {
 
-  OpenTimer::Timer::init_logging(argv[0], 0);  
-  OpenTimer::timer_t timer;
+  __OpenTimer::Timer::init_logging(argv[0], 0);
+  __OpenTimer::timer_t timer;
   timer.exec_tau2015(argc, argv);
 
   return 0;

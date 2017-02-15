@@ -17,7 +17,7 @@
 #include "ot_sdcdef.h"
 #include "ot_sdcdump.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: SDC
 // The class for reading the sdc 2.0 input file.

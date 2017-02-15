@@ -21,7 +21,7 @@
 #include "ot_iterator.h"
 #include "ot_environment.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: CellLib
 // This class defines the characteristics of a library. The library contains the descriptions

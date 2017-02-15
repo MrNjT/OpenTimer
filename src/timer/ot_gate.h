@@ -17,7 +17,7 @@
 #include "ot_utility.h"
 #include "ot_typedef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Gate class.
 class Gate {

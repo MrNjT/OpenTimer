@@ -13,7 +13,7 @@
 
 #include "ot_site.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor.
 Site::Site(string_crt key):

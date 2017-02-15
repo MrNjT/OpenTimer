@@ -13,7 +13,7 @@
 
 #include "ot_agent.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 
 
@@ -24,4 +24,4 @@ namespace OpenTimer {
 
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------

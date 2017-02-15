@@ -13,7 +13,7 @@
 
 #include "ot_macro.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor.
 Macro::Macro(string_crt key):

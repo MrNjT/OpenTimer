@@ -16,7 +16,7 @@
 // Function: main
 int main(int argc, char *argv[]) {
   
-  using namespace OpenTimer;
+  using namespace __OpenTimer;
 
   // Logging options.
   Timer::init_logging(argv[0], 1);

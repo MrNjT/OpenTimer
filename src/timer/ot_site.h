@@ -19,7 +19,7 @@
 #include "ot_geometry.h"
 #include "ot_macrodef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Site
 class Site {

@@ -125,7 +125,7 @@
                                             for(int rf1=0; rf1<2; ++rf1) \
                                               for(int rf2=0; rf2<2; ++rf2)
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 };  // End of namespace OpenTimer. ----------------------------------------------------------------
 

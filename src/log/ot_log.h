@@ -16,7 +16,7 @@
 
 #include "ot_typedef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Log
 class Log {
@@ -60,7 +60,7 @@ inline void_t Log::set_colorlogtostderr(bool_ct flag) {
   FLAGS_colorlogtostderr = flag;
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 #endif

@@ -14,7 +14,7 @@
 #include "ot_shell.h"
 #include <wordexp.h>
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Static member: _fptr
 file_pt Shell::_fptr = stdout;

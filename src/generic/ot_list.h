@@ -19,7 +19,7 @@
 #include <cstdlib>
 #include <memory>
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: ListNode
 // This class defines the structure of the list node.

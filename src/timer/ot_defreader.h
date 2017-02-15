@@ -20,7 +20,7 @@
 
 //#define DEF_CALLBACK_VERBOSITY 1
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: DEF
 class DEFReader {

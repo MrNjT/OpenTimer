@@ -13,7 +13,7 @@
 
 #include "ot_lefreader.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor: LEFReader
 LEFReader::LEFReader():

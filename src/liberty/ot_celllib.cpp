@@ -13,7 +13,7 @@
 
 #include "ot_celllib.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor.
 CellLib::CellLib():

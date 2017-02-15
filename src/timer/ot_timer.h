@@ -32,7 +32,7 @@
 #include "ot_log.h"
 #include "ot_shell.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Timer
 class Timer {

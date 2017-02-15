@@ -19,7 +19,7 @@
 #include "ot_enumdef.h"
 #include "ot_typedef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: FileReader
 class FileReader {

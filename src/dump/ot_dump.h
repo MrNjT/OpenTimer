@@ -17,7 +17,7 @@
 #include "ot_typedef.h"
 #include "ot_net.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 stringstream_t dump(timing_arc_pt);
 

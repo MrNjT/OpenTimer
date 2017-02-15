@@ -13,7 +13,7 @@
 
 #include "ot_unitdef.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 
 };

@@ -16,12 +16,12 @@
 
 #include "ot_timer.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 
 
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 

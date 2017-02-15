@@ -13,7 +13,7 @@
 
 #include "ot_sdcdump.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Procedure: dump_objects
 static void dump_objects(std::vector<char*>&objects, std::stringstream &ss) {

@@ -19,7 +19,7 @@
 #include "ot_freader.h"
 #include "ot_environment.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Spef
 class Spef {

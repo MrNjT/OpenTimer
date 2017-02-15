@@ -20,7 +20,7 @@
 #include <ostream>   
 #include <new>       
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: SingularAllocator
 // The memory pool based allocator of a single fixed data of type T.

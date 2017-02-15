@@ -13,9 +13,9 @@
 
 #include "ot_functor.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 

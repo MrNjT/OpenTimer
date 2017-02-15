@@ -19,7 +19,7 @@
 #include "ot_layer.h"
 #include "ot_macro.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: OpenTimer
 class TechLib {

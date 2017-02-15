@@ -21,7 +21,7 @@
 #include "ot_node.h"
 #include "ot_path.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Class: Endpoint
 class Endpoint {

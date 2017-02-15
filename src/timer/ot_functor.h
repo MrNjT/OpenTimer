@@ -14,7 +14,7 @@
 #ifndef OT_FUNCTOR_H_
 #define OT_FUNCTOR_H_
 
-namespace OpenTimer{
+namespace __OpenTimer{
 
 
 };  // End of OpenTimer namespace. ----------------------------------------------------------------

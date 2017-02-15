@@ -14,7 +14,7 @@
 #ifndef OT_ENUM_H_
 #define OT_ENUM_H_
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 typedef enum CapacitanceUnitBase {
   FARAD,

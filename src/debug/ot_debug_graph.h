@@ -16,7 +16,7 @@
 
 #include "ot_timer.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Function: is_timing_graph_acyclic
 bool_t is_timing_graph_acyclic(timer_pt);

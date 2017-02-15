@@ -18,7 +18,7 @@
 #include "ot_pin.h"
 #include "ot_rctree.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Net class.
 class Net {

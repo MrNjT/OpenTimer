@@ -13,7 +13,7 @@
 
 #include "ot_pin.h"
 
-namespace OpenTimer {
+namespace __OpenTimer {
 
 // Constructor
 Pin::Pin(string_crt key) :
@@ -100,7 +100,7 @@ float_t Pin::load(int el, int rf) const {
   return cap(el, rf);
 }
 
-};  // End of namespace OpenTimer. ----------------------------------------------------------------
+};  // End of namespace __OpenTimer. ----------------------------------------------------------------
 
 
 
