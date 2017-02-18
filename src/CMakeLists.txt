@@ -15,9 +15,9 @@ add_subdirectory(spef)
 add_subdirectory(timer)
 add_subdirectory(verilog)
 
-link_directories(${3RDPARTY_PATH}/glog-0.3.3/lib/)
-add_library(OpenTimer SHARED ${SOURCE})
-target_link_libraries(OpenTimer PUBLIC glog)
+add_library(OpenTimer ${SOURCE})
+target_include_directories(OpenTimer PRIVATE ${GLOG_INCLUDE_DIRS})
+target_link_libraries(OpenTimer PRIVATE OpenTimerLefDef INTERFACE ${GLOG_LIBRARIES})
 
 target_include_directories(OpenTimer
   PUBLIC debug
@@ -36,9 +36,8 @@ target_include_directories(OpenTimer
   PUBLIC verilog
   PUBLIC ${3RDPARTY_PATH}/DEF
   PUBLIC ${3RDPARTY_PATH}/LEF
-  PUBLIC ${3RDPARTY_PATH}/glog-0.3.3/include
 )
 
-install(TARGETS OpenTimer DESTINATION lib )
+install(TARGETS OpenTimer DESTINATION OpenTimer/lib )
 file(GLOB HEADERS "*/*.h*" )
-install(FILES ${HEADERS} DESTINATION include )
+install(FILES ${HEADERS} DESTINATION OpenTimer/include )

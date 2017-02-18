@@ -1,24 +1,14 @@
 cmake_minimum_required(VERSION 3.2.2)
-
 project(Open-Timer)
-set(CMAKE_CXX_STANDARD 11)
 
 include(ExternalProject)
 
-
+set(CMAKE_CXX_STANDARD 14)
+SET(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 set(3RDPARTY_PATH ${CMAKE_CURRENT_SOURCE_DIR}/3rd-party)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
-ExternalProject_Add(glog-0.3.3
-    SOURCE_DIR ${3RDPARTY_PATH}/glog-0.3.3
-    CONFIGURE_COMMAND "./configure" --prefix=${3RDPARTY_PATH}/glog-0.3.3
-    BUILD_COMMAND make
-    BUILD_IN_SOURCE 1
-)
-
-ExternalProject_Add_Step(glog-0.3.3 autoreconf
-    WORKING_DIRECTORY ${3RDPARTY_PATH}/glog-0.3.3
-    COMMAND autoreconf -f -i
-)
+find_package(Glog 0.3.3 REQUIRED)
 
 find_package(OpenMP)
 if (OPENMP_FOUND)
@@ -36,6 +26,8 @@ add_definitions(-DPACKAGE_URL="<http://web.engr.illinois.edu/~thuang19>")
 
 
 file(GLOB HEADERS "${3RDPARTY_PATH}/*/*.h*" )
-install(FILES ${HEADERS} DESTINATION include)
+install(FILES ${HEADERS} DESTINATION OpenTimer/include)
 
 add_subdirectory(src)
+add_subdirectory(main)
+add_subdirectory(3rd-party)
