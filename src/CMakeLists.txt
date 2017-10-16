@@ -38,6 +38,6 @@ target_include_directories(OpenTimer
   PUBLIC ${3RDPARTY_PATH}/LEF
 )
 
-install(TARGETS OpenTimer DESTINATION OpenTimer/lib )
+install(TARGETS OpenTimer DESTINATION lib/OpenTimer )
 file(GLOB HEADERS "*/*.h*" )
-install(FILES ${HEADERS} DESTINATION OpenTimer/include )
+install(FILES ${HEADERS} DESTINATION include/OpenTimer )

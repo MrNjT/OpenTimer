@@ -26,7 +26,7 @@ add_definitions(-DPACKAGE_URL="<http://web.engr.illinois.edu/~thuang19>")
 
 
 file(GLOB HEADERS "${3RDPARTY_PATH}/*/*.h*" )
-install(FILES ${HEADERS} DESTINATION OpenTimer/include)
+install(FILES ${HEADERS} DESTINATION include/OpenTimer)
 
 add_subdirectory(src)
 add_subdirectory(main)
