@@ -24,4 +24,4 @@ add_executable(ot_main ot_main.cpp)
 add_executable(ot_tau15 ot_tau15.cpp)
 add_executable(ot_tau16 ot_tau16.cpp)
 
-install(TARGETS ot_dist_agent ot_dist_master ot_main ot_tau15 ot_tau16 DESTINATION bin/OpenTimer)
+install(TARGETS ot_dist_agent ot_dist_master ot_main ot_tau15 ot_tau16 DESTINATION bin)
